@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(project(":printer"))
+    implementation(project(":common"))
+    testImplementation 'junit:junit:4.12'
+}
