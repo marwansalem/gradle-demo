@@ -9,9 +9,4 @@ public class App {
         Printer.print("hello");
         CommonHelper.printInt(300);
     }
-
-    @Test
-    public String getName() {
-        return "Abdelrahman";
-    }
 }
